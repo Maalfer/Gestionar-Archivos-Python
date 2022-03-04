@@ -6,8 +6,8 @@ def accion():
     os.chdir("/Users/mario/Desktop/carpetaorigen/") # Modificar esta ruta
     rutaorigen = "/Users/mario/Desktop/carpetaorigen/" # Modificar esta ruta
     rutadestino = "/Users/mario/Desktop/carpetadestino/" # Modificar esta ruta
-    archivo_zip = shutil.make_archive("carpeta_comprimida","zip", "carpeta_añadir_archivos_comprimir")
-    shutil.move(rutaorigen + "carpeta_comprimida.zip", rutadestino) 
+    archivo_zip = shutil.make_archive("carpeta_comprimida","zip", "carpeta_añadir_archivos_comprimir") # Modificar nombres
+    shutil.move(rutaorigen + "carpeta_comprimida.zip", rutadestino) # Modificar también estos nombres
 
 
 root = Tk()
